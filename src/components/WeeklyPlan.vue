@@ -29,7 +29,7 @@ const chartData = {
     {
       label: 'Dataset 1',
       data: [30, 45, 35, 50, 40, 35],
-      borderColor: '#F59E0B',
+      borderColor: '#FDF5DF',
       backgroundColor: 'rgba(245, 158, 11, 0.2)',
       fill: true,
       tension: 0.4,
@@ -39,7 +39,7 @@ const chartData = {
     {
       label: 'Dataset 2',
       data: [20, 35, 25, 40, 30, 25],
-      borderColor: '#6B7280',
+      borderColor: '#FDF5DF',
       backgroundColor: 'rgba(107, 114, 128, 0.2)',
       fill: true,
       tension: 0.4,
@@ -63,7 +63,10 @@ const chartOptions = {
         color: 'rgba(107, 114, 128, 0.1)'
       },
       ticks: {
-        color: '#6B7280'
+        color: '#6B7280',
+        font: {
+          size: 10
+        }
       }
     },
     y: {
@@ -79,9 +82,9 @@ const chartOptions = {
 </script>
 
 <template>
-  <div class="bg-[#2B2B2B] rounded-3xl p-6">
-    <h3 class="text-lg font-semibold mb-4">Weekly plan</h3>
-    <div class="h-[200px]">
+  <div class="bg-[#2B2B2B] rounded-2xl p-4">
+    <h3 class="text-sm font-medium text-gray-400 mb-4">Weekly plan</h3>
+    <div class="h-[180px]">
       <Line :data="chartData" :options="chartOptions" />
     </div>
   </div>

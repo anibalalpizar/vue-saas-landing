@@ -9,7 +9,7 @@ const chartData = {
   datasets: [
     {
       data: [300, 200, 300, 200],
-      backgroundColor: ["#3B82F6", "#10B981", "#EF4444", "#F59E0B"],
+      backgroundColor: ["#3366FF", "#FFDF90", "#FF6250", "#009379"],
       borderWidth: 0,
     },
   ],
@@ -27,8 +27,8 @@ const chartOptions = {
 </script>
 
 <template>
-  <div class="bg-[#2B2B2B] rounded-3xl p-6">
-    <h3 class="text-lg font-semibold mb-4">Monthly plan</h3>
+  <div class="bg-[#2B2B2B] rounded-2xl p-4">
+    <h3 class="text-sm font-medium text-gray-400 mb-4">Monthly plan</h3>
     <div class="relative w-full aspect-square">
       <Doughnut :data="chartData" :options="chartOptions" />
     </div>
