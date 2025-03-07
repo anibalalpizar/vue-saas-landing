@@ -245,5 +245,61 @@ const companies = [
         </div>
       </div>
     </section>
+
+    <!-- Cards Animation Section -->
+    <section class="container mx-auto py-20">
+      <div class="max-w-5xl mx-auto px-4">
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-12 items-center">
+          <div class="text-center lg:text-left">
+            <h2 class="text-5xl sm:text-6xl font-bold mb-6">
+              Questions?<br />Let's talk
+            </h2>
+            <p class="text-gray-400 text-lg sm:text-xl mb-8">
+              Contact us through our 24/7 live chat.<br />
+              We're always happy to help!
+            </p>
+            <Button
+              class="bg-[#E5B93E] hover:bg-[#D4A82D] text-black px-6 py-3 text-base rounded-full w-full sm:w-auto"
+            >
+              Get started
+            </Button>
+          </div>
+          <div class="flex justify-center lg:justify-end">
+            <img
+              src="/gifts/cards.gif"
+              alt="Cards Animation"
+              class="w-full max-w-md lg:max-w-full rounded-lg shadow-lg bg-[#E1F6F4]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-[#404040] py-8">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+          <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
+            <span class="text-sm text-white">© Wallet 2022</span>
+            <div class="flex gap-6 text-sm">
+              <a href="#" class="text-white hover:text-gray-300 transition-colors">Privacy policy</a>
+              <a href="#" class="text-white hover:text-gray-300 transition-colors">Cookies policy</a>
+              <a href="#" class="text-white hover:text-gray-300 transition-colors">Terms of use</a>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row items-start md:items-center gap-4">
+            <span class="text-sm text-[#E5B93E]">Updates right to your inbox</span>
+            <div class="flex gap-2 w-full md:w-auto">
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="bg-[#333333] text-white text-sm px-4 py-2 rounded focus:outline-none focus:ring-1 focus:ring-[#E5B93E] w-full md:w-auto"
+              />
+              <Button class="bg-[#9747FF] hover:bg-[#8A3EFF] text-sm px-4">CTA</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
