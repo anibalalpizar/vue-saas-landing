@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Button } from "@/components/ui/button"
 </script>
 
 <template>
@@ -16,11 +15,11 @@ import { Button } from "@/components/ui/button"
             Contact us through our 24/7 live chat.<br />
             We're always happy to help!
           </p>
-          <Button
-            class="bg-[#E5B93E] hover:bg-[#D4A82D] text-black px-6 py-3 text-base rounded-full w-full sm:w-auto"
+          <button
+            class="bg-[#E5B93E] hover:bg-[#D4A82D] text-black px-6 py-3 text-base rounded-full transition-colors w-full sm:w-auto"
           >
             Get started
-          </Button>
+          </button>
         </div>
         <div class="flex justify-center lg:justify-end">
           <img

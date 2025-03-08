@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Button } from "@/components/ui/button"
 import MonthlyPlan from "@/components/MonthlyPlan.vue"
 import SpendingFrequency from "@/components/SpendingFrequency.vue"
 import WeeklyPlan from "@/components/WeeklyPlan.vue"
@@ -16,11 +15,11 @@ import WeeklyPlan from "@/components/WeeklyPlan.vue"
           This is a template Figma file, turned into code<br />using Anima.
           Learn more at AnimaApp.com
         </p>
-        <Button
-          class="bg-[#E5B93E] hover:bg-[#D4A82D] text-black px-8 py-6 text-lg rounded-full"
+        <button
+          class="bg-[#E5B93E] hover:bg-[#D4A82D] text-black px-8 py-6 text-lg rounded-full transition-colors"
         >
           Get started
-        </Button>
+        </button>
       </div>
 
       <div class="bg-[#333333] rounded-[32px] p-8">

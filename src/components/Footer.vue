@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Button } from "@/components/ui/button"
 </script>
 
 <template>
@@ -36,9 +35,9 @@ import { Button } from "@/components/ui/button"
               placeholder="Email Address"
               class="bg-[#333333] text-white text-sm px-4 py-2 rounded focus:outline-none focus:ring-1 focus:ring-[#E5B93E] w-full md:w-auto"
             />
-            <Button class="bg-[#9747FF] hover:bg-[#8A3EFF] text-sm px-4"
-              >CTA</Button
-            >
+            <button class="bg-[#A490E5] hover:bg-[#9481D6] text-black text-sm px-4 py-2 rounded transition-colors">
+              CTA
+            </button>
           </div>
         </div>
       </div>
