@@ -30,7 +30,7 @@ const companies = [
           :key="company.name"
           :src="company.logo"
           :alt="company.name"
-          class="h-8 w-auto [filter:brightness(0)_invert(33%)]"
+          class="h-8 w-auto [filter:brightness(0)_invert(33%)] hover:[filter:brightness(1)_invert(0)] transition-[filter] duration-300"
         />
       </div>
     </div>
