@@ -3,7 +3,7 @@
     <div class="max-w-5xl mx-auto px-4">
       <div class="bg-[#BFAFF2] rounded-3xl p-12">
         <div class="max-w-3xl">
-          <p class="text-2xl mb-8 leading-relaxed">
+          <p class="text-2xl mb-8 leading-relaxed text-black">
             "Wallet is a great product! All of my most important information is
             there - credit cards, transit cards, boarding passes, tickets, and
             more. And I don't need to worry because it's all in one place!
@@ -16,8 +16,8 @@
               class="w-12 h-12 rounded-full"
             />
             <div>
-              <h4 class="font-semibold">Johnny Owens</h4>
-              <div class="flex gap-1">
+              <h4 class="font-semibold text-black">Johnny Owens</h4>
+              <div class="flex gap-1 text-black">
                 <svg
                   v-for="i in 5"
                   :key="i"
