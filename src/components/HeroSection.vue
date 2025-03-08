@@ -16,7 +16,7 @@ import WeeklyPlan from "@/components/WeeklyPlan.vue"
           Learn more at AnimaApp.com
         </p>
         <button
-          class="bg-[#E5B93E] hover:bg-[#D4A82D] text-black px-8 py-6 text-lg rounded-full transition-colors"
+          class="bg-[#E5B93E] hover:bg-[#D4A82D] text-black px-10 py-3 text-base rounded-full transition-colors"
         >
           Get started
         </button>
