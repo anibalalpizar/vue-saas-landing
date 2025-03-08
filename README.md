@@ -6,7 +6,7 @@ A modern, responsive SaaS landing page built with Vue 3, TypeScript, and Tailwin
 
 ## 🚀 Live Preview
 
-Visit the live site: [TODO](https:todo.com)
+Visit the live site: [SaaS Landing Page](https://vue-saas-landing.vercel.app)
 
 ## ✨ Features
 
