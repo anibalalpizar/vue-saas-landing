@@ -1,0 +1,23 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://vue-saas-landing.vercel.app/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 10
+
+# Disallow specific paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow important assets
+Allow: /images/
+Allow: /public/images/
+Allow: /favicon.ico
+Allow: /sitemap.xml
