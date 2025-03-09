@@ -20,7 +20,7 @@ const companies = [
 </script>
 
 <template>
-  <section class="container mx-auto">
+  <section class="container mx-auto" aria-label="Trusted Companies">
     <div class="border-t border-b border-[#404040] py-16">
       <div
         class="max-w-3xl mx-auto px-4 flex justify-between items-center gap-8"
@@ -29,8 +29,9 @@ const companies = [
           v-for="company in companies"
           :key="company.name"
           :src="company.logo"
-          :alt="company.name"
+          :alt="`${company.name} logo`"
           class="h-8 w-auto [filter:brightness(0)_invert(33%)] hover:[filter:brightness(1)_invert(0)] transition-[filter] duration-300"
+          loading="lazy"
         />
       </div>
     </div>

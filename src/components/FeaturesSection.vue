@@ -1,10 +1,12 @@
 <template>
-  <section class="container mx-auto py-20">
+  <section class="container mx-auto py-20" aria-labelledby="features-heading">
+    <h2 id="features-heading" class="sr-only">Key Features</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto px-4">
       <!-- Customizable card -->
-      <div class="text-center">
+      <div class="text-center" role="article">
         <div
           class="bg-[#333333] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6"
+          aria-hidden="true"
         >
           <svg
             width="32"
@@ -12,6 +14,8 @@
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Customizable card icon"
           >
             <path
               d="M26.6667 8H5.33333C4.59695 8 4 8.59695 4 9.33333V22.6667C4 23.403 4.59695 24 5.33333 24H26.6667C27.403 24 28 23.403 28 22.6667V9.33333C28 8.59695 27.403 8 26.6667 8Z"
@@ -36,9 +40,10 @@
       </div>
 
       <!-- No payment fee -->
-      <div class="text-center">
+      <div class="text-center" role="article">
         <div
           class="bg-[#333333] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6"
+          aria-hidden="true"
         >
           <svg
             width="32"
@@ -46,6 +51,8 @@
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="No payment fee icon"
           >
             <circle cx="16" cy="16" r="12" fill="#9747FF" />
             <path
@@ -71,9 +78,10 @@
       </div>
 
       <!-- All in one place -->
-      <div class="text-center">
+      <div class="text-center" role="article">
         <div
           class="bg-[#333333] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6"
+          aria-hidden="true"
         >
           <svg
             width="32"
@@ -81,6 +89,8 @@
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="All in one place icon"
           >
             <path
               d="M25.3333 5.33334H6.66667C5.93029 5.33334 5.33334 5.93029 5.33334 6.66667V25.3333C5.33334 26.0697 5.93029 26.6667 6.66667 26.6667H25.3333C26.0697 26.6667 26.6667 26.0697 26.6667 25.3333V6.66667C26.6667 5.93029 26.0697 5.33334 25.3333 5.33334Z"
