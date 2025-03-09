@@ -11,13 +11,21 @@ import Footer from "@/components/Footer.vue"
 
 <template>
   <div class="min-h-screen bg-[#2B2B2B] text-white">
-    <Navigation />
-    <HeroSection />
-    <CompaniesSection />
-    <DashboardPreview />
-    <FeaturesSection />
-    <TestimonialSection />
-    <CardsAnimation />
-    <Footer />
+    <header role="banner">
+      <Navigation />
+    </header>
+
+    <main role="main">
+      <HeroSection />
+      <CompaniesSection />
+      <DashboardPreview />
+      <FeaturesSection />
+      <TestimonialSection />
+      <CardsAnimation />
+    </main>
+
+    <footer role="contentinfo">
+      <Footer />
+    </footer>
   </div>
 </template>
